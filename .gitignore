@@ -1,10 +1,10 @@
-/.mixin.out
-/crash-reports
-/downloads
-/logs
-/saves
-/schematics
-/Xaero*
+.mixin.out
+crash-reports
+downloads
+logs
+saves
+schematics
+Xaero*
 minecraftinstance.json
 options.txt
 realms_persistence.json
