@@ -1,0 +1,12 @@
+/.mixin.out
+/crash-reports
+/downloads
+/logs
+/saves
+/schematics
+/Xaero*
+minecraftinstance.json
+options.txt
+realms_persistence.json
+usercache.json
+usernamecache.json
