@@ -32,20 +32,108 @@ Just a lil something for me and my friends to play over the summer
 
 
 - \[ ] ***Post completion***
- 	- \[ ] Setup personal server
- 	- \[ ] Discord Server integration
-	 - \[ ] More community feedback
-	 - \[ ] Custom title and curseforge page
+    - \[ ] Setup personal server
+    - \[ ] Discord Server integration
+    - \[ ] More community feedback
+    - \[ ] Custom title and curseforge page
+	
 
 
 
 
 
+## Notable Mods
 
-## Notable Mods ***(WIP)***
+This isn't to say that the mods in the pack that aren't on this list aren't important. These are just the mods that you will most likely notice while playing.
+Later I'll also update the list to be sorted into catagories, instead of alphabetically.
 
-this isn't to say that the mods in the pack that aren't on this list aren't important. these are just the mods that you will most likely notice while playing.
+*Note: Mod list is Subject to change, some mods may be removed in the future*
+**Itallic mods mean I'm deciding weather or not I want to add them**
 
+Mods:
+- Team Abnormals Mods
+    - Allurement
+    - Atmospheric
+    - Autumnity
+    - Berry Good
+    - Buzzier Bees
+    - Environmental
+    - Neapolitan
+    - Savage & Ravage
+    - The Endergetic Expansion
+    - Upgrade Aquatic
+- Alex's Mobs
+- Apotheosis
+- Archer's Paradox
+- Ars Nouveua
+- Atum 2: Return to the Sands
+- Backpacked
+- Team Aroura Mods
+    - Abundance
+    - Bayou Blues
+    - Enhanced Mushrooms
+    - Fruitful
+- Brazier
+- Bundles Plus
+- Cat Jammies
+- CC: Tweaked
+- Charm Reforged
+- Charmonium Reforged
+- Create
+- Creatures and Beasts
+- Dash
+- Decorative Blocks
+- Dimensional Dungeons
+- Dungeons Plus
+- Dynamic Surroundings
+- Elenai Dodge 2
+- Farmer's Delight
+    - Abnormals Delight
+    - Copper Pot
+    - Farmer's Tea
+- FindMe
+- Frozen Up
+- Immersive Engineering
+- Immersive Petroleum
+- Inspirations
+- Jade 🔍
+- Just Enough Items (JEI)
+- Macaw's Mods
+    - Macaw's Doors
+    - Macaw's Paintings
+    - Macaw's Trapdoors
+- *Mahou Tsukai*
+- Momentum
+- More Red
+- *Natures Aura*
+- Quark
+- Quark Oddities
+- *Relics*
+- *Reliquary*
+- Resourceful Bees
+- *Shulker's Faithful Factories*
+- Simple Voice Chat
+- *Simply Improved Terrain*
+- Simply Tea
+- Storage Drawers
+- *Straw Golem Reborn*
+- Supplementaries
+- Tetra
+    - Tetranomicon
+    - Tetra Pak
+- The Conjurer
+- The Outer End
+- The Twilight Forest
+- Tool Belt
+- Towers Of The Wild
+- Valhelsia Structures
+- Waystones
+- Xaero's Minimap & World Map
+- YUNGS' Mods
+    - YUNG'S Better Caves
+    - YUNG'S Better Mineshafts
+    - YUNG'S Better Strongholds
+    - YUNG'S Extras
 
 ## Notable Changes ***(WIP)***
 
