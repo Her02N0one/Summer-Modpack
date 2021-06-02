@@ -1,9 +1,9 @@
-.mixin.out
-crash-reports
-downloads
-logs
-saves
-schematics
+.mixin.out/
+crash-reports/
+downloads/
+logs/
+saves/
+schematics/
 Xaero*
 minecraftinstance.json
 options.txt
