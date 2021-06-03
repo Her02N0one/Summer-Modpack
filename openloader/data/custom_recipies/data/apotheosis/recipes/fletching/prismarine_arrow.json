@@ -1,0 +1,21 @@
+{
+  "type": "apotheosis:fletching",
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  }],
+  "ingredients": [{
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "item": "archers_paradox:prismarine_arrow",
+    "count": 4
+  }
+}

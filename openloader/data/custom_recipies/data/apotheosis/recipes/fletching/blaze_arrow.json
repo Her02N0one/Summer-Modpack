@@ -1,0 +1,21 @@
+{
+  "type": "apotheosis:fletching",
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  }],
+  "ingredients": [{
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "item": "archers_paradox:blaze_arrow",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "apotheosis:fletching",
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  }],
+  "ingredients": [{
+      "item": "endergetic:booflo_hide"
+    },
+    {
+      "item": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "item": "archers_paradox:shulker_arrow",
+    "count": 8
+  }
+}
