@@ -91,35 +91,18 @@
 		Range = 10.0
 
 [building]
-	"Duskbound Blocks" = true
-	"Bamboo Mat" = false
 	"Cobblestone Bricks" = true
-	"More Brick Types" = true
-	"Gold Bars" = true
-	"Soul Sandstone" = true
 	"Burn Vines" = true
 	"Quilted Wool" = true
-	"Compressed Blocks" = true
-	Stools = true
-	Thatch = false
 	"Variant Chests" = true
-	"Variant Ladders" = true
 	Hedges = true
 	"Vertical Slabs" = true
-	Shingles = true
 	"Nether Brick Fence Gate" = true
-	"Item Frames" = true
-	"Stained Planks" = true
-	"Wooden Posts" = true
-	"Leaf Carpet" = true
 	"Lit Lamp" = true
 	"Vertical Planks" = true
-	Midori = true
 	"Tie Leads To Fences" = true
 	"Shallow Dirt" = true
 	"More Stone Variants" = true
-	"Framed Glass" = true
-	"Tallow And Candles" = false
 	Turf = true
 	"Paper Decor" = true
 	Rope = false
@@ -128,6 +111,27 @@
 	"More Potted Plants" = true
 	Grate = true
 	"Variant Bookshelves" = true
+	"Duskbound Blocks" = true
+	"Bamboo Mat" = false
+	"More Brick Types" = true
+	"Gold Bars" = true
+	"Soul Sandstone" = true
+	"Compressed Blocks" = true
+	Stools = true
+	Thatch = false
+	"Variant Ladders" = true
+	Shingles = true
+	"Item Frames" = true
+	"Stained Planks" = true
+	"Wooden Posts" = true
+	"Leaf Carpet" = true
+	Midori = true
+	"Framed Glass" = true
+	"Tallow And Candles" = false
+
+	[building.thatch]
+		#Allowed values: [0,1]
+		"Fall Damage Multiplier" = 0.5
 
 	[building.cobblestone_bricks]
 		"Enable Basalt Bricks" = true
@@ -146,10 +150,6 @@
 		"Enable Pillar" = true
 		"Enable Chiseled Bricks" = true
 		"Enable Pavement" = true
-
-	[building.thatch]
-		#Allowed values: [0,1]
-		"Fall Damage Multiplier" = 0.5
 
 	[building.variant_ladders]
 		"Change Names" = true
@@ -538,11 +538,11 @@
 			"Vertical Variation" = 8
 
 			[world.cave_crystal_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = true
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["ocean"]
-				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -578,11 +578,11 @@
 			"Vertical Variation" = 6
 
 			[world.sandstone_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["desert"]
-				"Is Blacklist" = false
 
 			[world.sandstone_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -655,11 +655,11 @@
 			"Vertical Variation" = 1
 
 			[world.crevices.spawn_settings.biomes]
+				"Is Blacklist" = true
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["ocean", "beach"]
-				"Is Blacklist" = true
 
 			[world.crevices.spawn_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -803,11 +803,11 @@
 			"Vertical Variation" = 6
 
 			[world.spider_nest_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["plains"]
-				"Is Blacklist" = false
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -818,6 +818,10 @@
 		[world.blossom_trees.orange]
 			Rarity = 100
 
+			[world.blossom_trees.orange.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
 			[world.blossom_trees.orange.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
@@ -825,12 +829,12 @@
 				"Biome Categories" = ["savanna"]
 				"Is Blacklist" = false
 
-			[world.blossom_trees.orange.dimensions]
-				Dimensions = ["minecraft:overworld"]
-				"Is Blacklist" = false
-
 		[world.blossom_trees.red]
 			Rarity = 30
+
+			[world.blossom_trees.red.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
 
 			[world.blossom_trees.red.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
@@ -839,12 +843,12 @@
 				"Biome Categories" = ["mesa"]
 				"Is Blacklist" = false
 
-			[world.blossom_trees.red.dimensions]
-				Dimensions = ["minecraft:overworld"]
-				"Is Blacklist" = false
-
 		[world.blossom_trees.pink]
 			Rarity = 100
+
+			[world.blossom_trees.pink.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
 
 			[world.blossom_trees.pink.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
@@ -853,12 +857,12 @@
 				"Biome Categories" = ["extreme_hills"]
 				"Is Blacklist" = false
 
-			[world.blossom_trees.pink.dimensions]
-				Dimensions = ["minecraft:overworld"]
-				"Is Blacklist" = false
-
 		[world.blossom_trees.blue]
 			Rarity = 200
+
+			[world.blossom_trees.blue.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
 
 			[world.blossom_trees.blue.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
@@ -867,12 +871,12 @@
 				"Biome Categories" = ["icy"]
 				"Is Blacklist" = false
 
-			[world.blossom_trees.blue.dimensions]
-				Dimensions = ["minecraft:overworld"]
-				"Is Blacklist" = false
-
 		[world.blossom_trees.yellow]
 			Rarity = 200
+
+			[world.blossom_trees.yellow.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
 
 			[world.blossom_trees.yellow.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
@@ -881,22 +885,18 @@
 				"Biome Categories" = ["plains"]
 				"Is Blacklist" = false
 
-			[world.blossom_trees.yellow.dimensions]
-				Dimensions = ["minecraft:overworld"]
-				"Is Blacklist" = false
-
 		[world.blossom_trees.lavender]
 			Rarity = 100
+
+			[world.blossom_trees.lavender.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
 
 			[world.blossom_trees.lavender.biome_types]
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["swamp"]
-				"Is Blacklist" = false
-
-			[world.blossom_trees.lavender.dimensions]
-				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.mega_caves]
@@ -918,11 +918,11 @@
 			"Vertical Variation" = 10
 
 			[world.mega_caves.spawn_settings.biomes]
+				"Is Blacklist" = true
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["ocean", "beach"]
-				"Is Blacklist" = true
 
 			[world.mega_caves.spawn_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -955,11 +955,11 @@
 			"Vertical Variation" = 6
 
 			[world.elder_prismarine_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["ocean"]
-				"Is Blacklist" = false
 
 			[world.elder_prismarine_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -990,11 +990,11 @@
 			"Vertical Variation" = 6
 
 			[world.glowshroom_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["extreme_hills", "mushroom"]
-				"Is Blacklist" = false
 
 			[world.glowshroom_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1271,11 +1271,11 @@
 			"Vertical Variation" = 6
 
 			[world.overgrown_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["forest"]
-				"Is Blacklist" = false
 
 			[world.overgrown_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1300,11 +1300,11 @@
 			"Vertical Variation" = 6
 
 			[world.permafrost_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["icy"]
-				"Is Blacklist" = false
 
 			[world.permafrost_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1329,11 +1329,11 @@
 			"Vertical Variation" = 6
 
 			[world.lush_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["jungle"]
-				"Is Blacklist" = false
 
 			[world.lush_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1358,11 +1358,11 @@
 			"Vertical Variation" = 6
 
 			[world.brimstone_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["mesa"]
-				"Is Blacklist" = false
 
 			[world.brimstone_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -1437,11 +1437,11 @@
 			"Vertical Variation" = 6
 
 			[world.slime_underground_biome.biome_settings.biomes]
+				"Is Blacklist" = false
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
 				"Biome Categories" = ["swamp"]
-				"Is Blacklist" = false
 
 			[world.slime_underground_biome.biome_settings.dimensions]
 				Dimensions = ["minecraft:overworld"]

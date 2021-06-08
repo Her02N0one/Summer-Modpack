@@ -3,7 +3,7 @@
 #to access server configuration go into /saves/serverconfigs
 [general]
 	#enable creative tab
-	creative_tab = false
+	creative_tab = true
 	#set to false to disable custom dispenser behaviors (filling jars) if for some reason they are causing trouble
 	dispensers = true
 	#creates a creative tab full of filled jars
@@ -17,7 +17,7 @@
 
 	[registration.blocks]
 		clock_block = true
-		speaker_block = false
+		speaker_block = true
 		sack = true
 		#WIP
 		laser_block = false
@@ -30,15 +30,15 @@
 		jar = true
 		sconce_ender = true
 		rope_arrow = true
-		checker_block = false
+		checker_block = true
 		stone_lamp = true
-		cog_block = false
+		cog_block = true
 		crank = true
-		copper_lantern = false
-		pancake = false
+		copper_lantern = true
+		pancake = true
 		piston_launcher = true
 		netherite_trapdoor = true
-		fodder = false
+		fodder = true
 		globe = true
 		sconce = true
 		candelabra = true
@@ -49,23 +49,26 @@
 		blackboard = true
 		netherite_door = true
 		sconce_soul = true
-		candle_holder = false
-		flag = false
-		rope = false
+		candle_holder = true
+		flag = true
+		rope = true
 		notice_board = true
 		redstone_illuminator = true
 		crimson_lantern = true
-		lock_block = false
+		lock_block = true
 		flax = false
 		planter = true
 		wind_vane = true
 		item_shelf = true
 		turn_table = true
 		faucet = true
-		gold_trapdoor = false
+		gold_trapdoor = true
 		magma_cream_block = true
-		sconce_green = false
+		sconce_green = true
 		flute = true
 		pulley_block = true
-		gold_door = false
+		gold_door = true
+		goblet = true
+		raked_gravel = true
+		i_want_flags = false
 

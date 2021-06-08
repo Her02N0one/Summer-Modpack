@@ -1,0 +1,21 @@
+{
+  "type": "apotheosis:fletching",
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  }],
+  "ingredients": [{
+      "tag": "forge:fruits/banana"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "item": "neapolitan:bananarrow",
+    "count": 1
+  }
+}

@@ -21,6 +21,24 @@
         "naturesaura:intro/aura"
       ],
       "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:release_notes/new_in_1_18",
+        "ars_nouveau:release_notes/new_in_1_18_1",
+        "ars_nouveau:release_notes/new_in_1_17",
+        "ars_nouveau:spells/summon_decoy",
+        "ars_nouveau:spells/crush"
+      ],
+      "bookmarks": [],
+      "history": [
+        "ars_nouveau:spells/crush",
+        "ars_nouveau:spells/summon_decoy",
+        "ars_nouveau:release_notes/new_in_1_17",
+        "ars_nouveau:release_notes/new_in_1_18_1",
+        "ars_nouveau:release_notes/new_in_1_18"
+      ],
+      "completedManualQuests": []
     }
   }
 }

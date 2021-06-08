@@ -1,0 +1,21 @@
+{
+  "type": "apotheosis:fletching",
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  }],
+  "ingredients": [{
+      "item": "savageandravage:creeper_spores"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "savageandravage:creeper_spores"
+    }
+  ],
+  "result": {
+    "item": "savageandravage:mischief_arrow",
+    "count": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "apotheosis:fletching",
+  "conditions": [{
+    "type": "apotheosis:module",
+    "module": "village"
+  }],
+  "ingredients": [{
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "inspirations:charged_arrow"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "archers_paradox:redstone_arrow",
+    "count": 2
+  }
+}

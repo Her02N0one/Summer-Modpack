@@ -1,0 +1,19 @@
+# Remove basic crafting recipes for Archer's Paradox Arrows. As they are replaced by # a fletching table recipe in a datapack
+craftingTable.removeByName("archers_paradox:blaze_arrow");
+craftingTable.removeByName("archers_paradox:challenge_arrow");
+craftingTable.removeByName("archers_paradox:diamond_arrow");
+craftingTable.removeByName("archers_paradox:displacement_arrow");
+craftingTable.removeByName("archers_paradox:ender_arrow");
+craftingTable.removeByName("archers_paradox:explosive_arrow");
+craftingTable.removeByName("archers_paradox:frost_arrow");
+craftingTable.removeByName("archers_paradox:glowstone_arrow");
+craftingTable.removeByName("archers_paradox:lightning_arrow");
+craftingTable.removeByName("archers_paradox:phantasmal_arrow");
+craftingTable.removeByName("archers_paradox:prismarine_arrow");
+craftingTable.removeByName("archers_paradox:quartz_arrow");
+craftingTable.removeByName("archers_paradox:redstone_arrow");
+craftingTable.removeByName("archers_paradox:shulker_arrow");
+craftingTable.removeByName("archers_paradox:slime_arrow");
+craftingTable.removeByName("archers_paradox:spore_arrow");
+craftingTable.removeByName("archers_paradox:training_arrow");
+craftingTable.removeByName("archers_paradox:verdant_arrow");

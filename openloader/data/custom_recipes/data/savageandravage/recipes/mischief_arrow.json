@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "savageandravage:creeper_spores"
+        },
+        {
+            "item": "minecraft:arrow"
+        }
+    ],
+    "result": {
+        "item": "savageandravage:mischief_arrow",
+        "count": 2
+    }
+}
