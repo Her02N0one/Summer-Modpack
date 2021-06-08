@@ -1,15 +1,15 @@
 # Summer-Modpack (Title in progress)
 Just a lil something for me and my friends to play over the summer
 
-## Progress ![17%](https://progress-bar.dev/17/)
+## Progress ![19%](https://progress-bar.dev/19/)
 *Note: progress bars are arbitrary estimations, and shouldn't be percived as an absolutely accurate measurment.*
 
 <br/>
 
-- \[ ] **Stage one** ![51%](https://progress-bar.dev/51)\
+- \[ ] **Stage one** ![57%](https://progress-bar.dev/57)\
 ![95%](https://progress-bar.dev/95) Basic mod list\
-![50%](https://progress-bar.dev/50) Change config files\
-![10%](https://progress-bar.dev/10) Custom scripts and datapacks
+![55%](https://progress-bar.dev/55) Change config files\
+![20%](https://progress-bar.dev/20) Custom scripts and datapacks
 
 <br/>
 
@@ -105,11 +105,9 @@ Mods:
 - *Mahou Tsukai*
 - Momentum
 - More Red
-- *Natures Aura*
 - Quark
 - Quark Oddities
 - *Relics*
-- *Reliquary*
 - Resourceful Bees
 - *Shulker's Faithful Factories*
 - Simple Voice Chat
