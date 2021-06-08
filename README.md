@@ -1,15 +1,15 @@
 # Summer-Modpack (Title in progress)
 Just a lil something for me and my friends to play over the summer
 
-## Progress ![20%](https://progress-bar.dev/12/)
+## Progress ![17%](https://progress-bar.dev/17/)
 *Note: progress bars are arbitrary estimations, and shouldn't be percived as an absolutely accurate measurment.*
 
 <br/>
 
-- \[ ] **Stage one** ![35%](https://progress-bar.dev/35)\
+- \[ ] **Stage one** ![51%](https://progress-bar.dev/51)\
 ![95%](https://progress-bar.dev/95) Basic mod list\
 ![50%](https://progress-bar.dev/50) Change config files\
-![0%](https://progress-bar.dev/0) Custom scripts and datapacks
+![10%](https://progress-bar.dev/10) Custom scripts and datapacks
 
 <br/>
 
