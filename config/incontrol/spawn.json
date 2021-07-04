@@ -1,1 +1,8 @@
-[]
+[  
+	{
+    "seesky": false,
+    "hostile": true,
+    "random": 0.50,
+    "result": "deny"
+	}
+]

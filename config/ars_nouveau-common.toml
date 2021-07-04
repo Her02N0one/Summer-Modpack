@@ -13,7 +13,7 @@
 	hunterHuntsAnimals = true
 	#How often Wilden Stalkers spawn
 	#Range: 0 ~ 200
-	wstalkerWeight = 50
+	wstalkerWeight = 25
 	#Dimensions where hostile mobs will not spawn. Ex: minecraft:overworld. Run /forge dimensions for a list.
 	dimensionBlacklist = []
 	#Should the Wilden Stalker attack animals?
@@ -22,7 +22,7 @@
 	defenderHuntsAnimals = false
 	#How often Wilden Hunter spawn
 	#Range: 0 ~ 200
-	whunterWeight = 50
+	whunterWeight = 25
 	#Spawn Arcane Ore in the world
 	genOre = true
 	#Spawn a book in the players inventory on login
@@ -31,7 +31,7 @@
 	genBerries = true
 	#How often Wilden Guardians spawn
 	#Range: 0 ~ 200
-	wguardianWeight = 50
+	wguardianWeight = 25
 	#Rate of tree spawn per chunk
 	#Range: 0.0 ~ 1.0
 	genTrees = 0.002

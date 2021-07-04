@@ -6,6 +6,8 @@ saves/
 schematics/
 screenshots/
 Xaero*
+journey*
+servers*
 minecraftinstance.json
 options.txt
 realms_persistence.json
