@@ -14,7 +14,7 @@
 	#How often Wilden Stalkers spawn
 	#Range: 0 ~ 200
 	wstalkerWeight = 25
-	#Dimensions where hostile mobs will not spawn. Ex: minecraft:overworld. Run /forge dimensions for a list.
+	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
 	dimensionBlacklist = []
 	#Should the Wilden Stalker attack animals?
 	stalkerHuntsAnimals = false
@@ -38,12 +38,15 @@
 	#How often Carbuncles spawn
 	#Range: 0 ~ 100
 	carbuncleWeight = 5
+	#How often Drygmys spawn
+	#Range: 0 ~ 100
+	drygmyWeight = 3
 
 #Mana
 [mana]
 	#Base mana regen in seconds
 	#Range: > 0
-	baseRegen = 5
+	baseRegen = 2.5
 	#Max mana bonus for tier of book
 	#Range: > 0
 	tierMax = 50
